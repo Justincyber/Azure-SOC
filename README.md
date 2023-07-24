@@ -3,8 +3,11 @@
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
+For this project, I constructed a small-scale honeynet within the Azure cloud platform. The objective was to collect log data from diverse sources and centralize it in a Log Analytics workspace. Subsequently, Microsoft Sentinel was employed to analyze the data and generate attack maps, raise alerts, and record security incidents. In the initial phase, I evaluated security metrics in the vulnerable environment for a period of 24 hours. Following that, I implemented security measures to fortify the environment and measured metrics for an additional 24 hours. The results of these assessments are presented below, focusing on the following metrics:
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
+
+
+
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)

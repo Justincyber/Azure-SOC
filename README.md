@@ -74,6 +74,6 @@ Stop Time	2023-03-19 15:37
 
 ## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+For this project, we set up a small-scale honeynet on Microsoft Azure, integrating various log sources into a Log Analytics workspace. Microsoft Sentinel was utilized to analyze the logs, generating alerts and recording incidents based on the data collected. As part of the assessment, we measured metrics in the vulnerable environment before implementing security controls. After applying these measures, we re-evaluated the metrics, witnessing a significant reduction in the number of security events and incidents. This outcome serves as evidence of the effectiveness of the security controls.
 
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+Furthermore, it is important to consider that if the network resources were extensively used by regular users, there could have been an increase in security events and alerts during the 24-hour period after implementing the security controls.
